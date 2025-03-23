@@ -1,0 +1,99 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Rubik;
+            font-weight: bold;
+        }
+        body {
+            background-color: white;
+        }
+        .header {
+            background-color: #4957F0;
+            color: white;
+            padding: 20px;
+            height: 90px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+            
+        }
+        .card {
+            
+            padding: 20px;
+            border-radius: 10px;
+            
+            background: #F5F5F5;
+
+            
+        }
+        .card h2 {
+            font-family: Rubik;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            font-weight: bold;
+            margin: 10px;
+
+        }
+        .card p {
+            margin: 5px 0;
+        }
+        .saldo {
+            font-size: 20px;
+            color: #4957F0;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .button {
+            background-color: #4957F0;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            
+        }
+        img{
+            height: 90px;
+        }
+        
+        #saldofnt{
+            font-family: Rubik;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #494949;
+
+        }
+        
+        #bttnbox{
+            
+                display: flex;
+                justify-content: center;
+                margin-top: 35px;
+            
+        }
