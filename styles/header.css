@@ -54,7 +54,7 @@ a{
   position: absolute;
   width: 100%;
   z-index: 1;
-  animation: dropdownHover 300ms ease-in-out forwards;
+  animation: dropdownHover 430ms ease-in-out forwards;
   transform-origin: top center;
 }
 
