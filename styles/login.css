@@ -4,16 +4,6 @@ body {
     background-color: white;
     font-weight: 550;
 }
-.logo-container{
-    float: left;
-}
-.banner {
-    background-color: #4957F0;
-    color: white;
-    padding: 20px;
-    text-align: right;
-    height: 90px;
-}
 .container {
     display: flex;
 }
