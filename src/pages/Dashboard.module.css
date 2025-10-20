@@ -1,0 +1,14 @@
+.dashboard-header {
+  color: #252525;
+  font-weight: 600;
+}
+
+.container {
+  width: var(--site-width);
+  margin-inline: auto;
+}
+
+#accounts {
+  display: flex;
+  gap: 30px;
+}

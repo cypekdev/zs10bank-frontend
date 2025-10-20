@@ -1,0 +1,25 @@
+.img {
+  width: 100px;
+}
+
+.container {
+  margin-inline: auto;
+  width: var(--site-width);
+}
+
+.carousel-item {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.carousel-item > img {
+  width: 100%;
+}
+
+.carousel-item > span {
+  font-size: 50px;
+  font-weight: 700;
+  color: #696969;
+}

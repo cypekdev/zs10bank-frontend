@@ -1,0 +1,31 @@
+.header {
+  background-color: #4956f0;
+  width: 100%;
+  box-shadow: 0 0 20px lightgray;
+}
+
+.header nav {
+  width: var(--site-width);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImg {
+  width: 160px;
+}
+
+
+.nav-link {
+  color: #e6e6e6;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+.nav-link.active {
+  color: white;
+}
