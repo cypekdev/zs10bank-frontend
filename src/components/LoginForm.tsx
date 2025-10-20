@@ -2,7 +2,7 @@ import { useState } from "react"
 import styles from './LoginForm.module.css'
 
 export default function LoginForm() {
-  const [usernameProvided, setUsernameProvided] = useState(true)
+  const [usernameProvided, setUsernameProvided] = useState(false)
 
 
   if (!usernameProvided) {
@@ -11,6 +11,7 @@ export default function LoginForm() {
         <form>
           <span>Wprowadź numer klienta</span>
           <input type="text" />
+          <button onClick={() => setUsernameProvided(true)}>Dalej</button>
         </form>
       </>
     )
